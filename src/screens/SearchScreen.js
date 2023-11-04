@@ -23,6 +23,10 @@ const SearchScreen = () => {
     }
   }
 
+  useEffect(() => {
+    searchApi('Pasta')
+  }, [])
+
 
   return (
     <View>
