@@ -5,6 +5,7 @@ import yelp from '../api/yelp'
 
 const SearchScreen = () => {
   const [term, setTerm] = useState('');
+  const [result, setResult] = useState([])
 
   return (
     <View>
